@@ -1,0 +1,46 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ndComponents
+    theme:                 peanut
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          nd_adminComponents
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      
+      fields:  ~
+      
+      list:    
+        
+        title: "Components"
+        
+        display: [=title]
+        
+        actions:
+        
+        object_actions:
+          _edit:        ~
+          _delete:      ~
+          
+        max_per_page:   15
+        
+      filter:
+        display:           [title]
+      
+      form:
+        display:
+          "General":        [title]
+          "Content":        [description]
+          "Informations":   []
+      
+      edit:    
+        title: "Modify this component"
+      
+      new:     
+        title: "Add new component"

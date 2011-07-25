@@ -1,0 +1,8 @@
+ndComponents:
+  actAs:
+    Sluggable:
+      fields:      [title]
+  columns:
+    id:                  { type: integer, primary: true, autoincrement: true, }
+    title:               { type: string(255) }
+    description:         { type: clob }

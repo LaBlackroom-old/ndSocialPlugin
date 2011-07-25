@@ -1,0 +1,8 @@
+nd_adminComponents:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ndComponents
+    module:               adminComponents
+    prefix_path:          /adminComponents
+    column:               id
+    with_wildcard_routes: true

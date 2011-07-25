@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>Add new component</source>
+        <target>Ajouter un composant</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Modify this component</source>
+        <target>Modifier ce composant</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Components</source>
+        <target>Gestion des Composants</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Title</source>
+        <target>Titre</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+
+
+
