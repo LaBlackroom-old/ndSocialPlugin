@@ -19,7 +19,11 @@ abstract class PluginndComponentsForm extends BasendComponentsForm
     $this->useFields(array(
         'title',
         'slug', 
-        'description'  
+        'url',
+        'description',
+        'active',
+        'created_at'
+        
     ));
     
     $this->widgetSchema['title'] = new sfWidgetFormHtml5InputText($options = array(), $attributes = array(
@@ -36,5 +40,24 @@ abstract class PluginndComponentsForm extends BasendComponentsForm
     	'filebrowserBrowseUrl'            => '/lib/elfinder-1.1/elfinder.php.html',
     	'filebrowserImageBrowseUrl'       => '/lib/elfinder-1.1/elfinder.php.html'
     )));  
+    
+    if(!$this->isNew()) {
+      $this->widgetSchema['created_at'] = new sfWidgetFormI18nDate(array(
+        'culture' => $user->getCulture(),
+      ));
+    }
+    else
+    {
+      unset($this['created_at']);
+    }
+    
+    $this->widgetSchema->setHelps(array(
+        'title' => 'The component title',
+        'slug' => 'The component slug',
+        'url' => 'The component url',
+        'description' => 'The component description',
+        'active' => 'The component status',
+        'created_at' => 'Useful is you want to modify the date of the entry publication'
+    ));
   }
 }

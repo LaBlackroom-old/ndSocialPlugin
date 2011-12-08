@@ -20,11 +20,13 @@ generator:
         
         title: "Components"
         
-        display: [=title]
+        display: [active, =title]
         
         actions:
         
         object_actions:
+          "Change status":
+            action: changestatus
           _edit:        ~
           _delete:      ~
           
@@ -36,8 +38,8 @@ generator:
       form:
         display:
           "General":        [title]
-          "Content":        [description]
-          "Informations":   []
+          "Content":        [description, url]
+          "Informations":   [active]
       
       edit:    
         title: "Modify this component"

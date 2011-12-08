@@ -13,4 +13,12 @@ require_once dirname(__FILE__).'/../lib/adminComponentsGeneratorHelper.class.php
  */
 class adminComponentsActions extends autoAdminComponentsActions
 {
+  public function executeChangestatus()
+  {
+    $object = Doctrine_Core::getTable('ndComponents')->findOneById($this->getRequestParameter('id'));   
+    $object->changeStatus();
+    
+    $this->getUser()->setFlash('notice', 'Status was modified successfully');
+    $this->redirect('@nd_adminComponents');
+  }
 }

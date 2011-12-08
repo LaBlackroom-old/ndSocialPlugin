@@ -1,8 +1,11 @@
 ndComponents:
   actAs:
+    Timestampable: ~
     Sluggable:
       fields:      [title]
   columns:
     id:                  { type: integer, primary: true, autoincrement: true, }
     title:               { type: string(255) }
+    url:                 { type: string(255) }
     description:         { type: clob }
+    active:              { type: boolean, default: 1 }

@@ -24,6 +24,14 @@
         <source>Description</source>
         <target>Description</target>
       </trans-unit>
+      <trans-unit>
+        <source>Url</source>
+        <target>Lien</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Active</source>
+        <target>Actif</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

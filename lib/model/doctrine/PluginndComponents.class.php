@@ -12,5 +12,18 @@
  */
 abstract class PluginndComponents extends BasendComponents
 {
+  public function changeStatus()
+  {
 
+    if(1 == $this->getActive())
+    {
+      $this->setActive(0);
+    }
+    elseif(0 == $this->getActive())
+    {
+      $this->setActive(1);
+    }
+    
+    $this->save();
+  }
 }
