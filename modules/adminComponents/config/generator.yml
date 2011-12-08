@@ -39,7 +39,7 @@ generator:
         display:
           "General":        [title]
           "Content":        [description, url]
-          "Informations":   [active]
+          "Informations":   [active, created_at, updated_at]
       
       edit:    
         title: "Modify this component"

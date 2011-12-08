@@ -23,7 +23,6 @@ abstract class PluginndComponentsForm extends BasendComponentsForm
         'description',
         'active',
         'created_at'
-        
     ));
     
     $this->widgetSchema['title'] = new sfWidgetFormHtml5InputText($options = array(), $attributes = array(
