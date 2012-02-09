@@ -36,4 +36,15 @@ class PluginndComponentsTable extends Doctrine_Table
         
         return $p;
     } 
+    
+    /**
+   * Get a Component with slug order by created_at DESC
+   * 
+   * @return  object  $p
+   */
+  public function getComponentWithId($id){
+    $p = $this->getComponent()
+              ->andWhere('p.id = ?', $id);
+    return $p;
+  }
 }
