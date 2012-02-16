@@ -1,0 +1,145 @@
+#FACEBOOK FIXTURES
+peanutSettings:
+  peanutSettings_29:
+    name: facebook_request
+    value: 0
+  peanutSettings_30:
+    name: facebook_page
+    value: ""
+  peanutSettings_31:
+    name: facebook_like
+    value: 0
+  peanutSettings_32:
+    name: facebook_like_send_button
+    value: 0
+  peanutSettings_33:
+    name: facebook_like_layout_style
+    value: 0
+  peanutSettings_34:
+    name: facebook_like_width
+    value: ""
+  peanutSettings_35:
+    name: facebook_like_show_face
+    value: 0
+  peanutSettings_36:
+    name: facebook_like_verb_to_display
+    value: 0
+  peanutSettings_37:
+    name: facebook_like_color_scheme
+    value: 0
+  peanutSettings_38:
+    name: facebook_like_font
+    value: 0
+  peanutSettings_39:
+    name: facebook_share
+    value: 0
+  peanutSettings_40:
+    name: facebook_title
+    value: ""
+  peanutSettings_41:
+    name: facebook_type
+    value: 0
+  peanutSettings_42:
+    name: facebook_url
+    value: ""
+  peanutSettings_43:
+    name: facebook_image
+    value: ""
+  peanutSettings_44:
+    name: facebook_sitename
+    value: ""
+  peanutSettings_45:
+    name: facebook_description
+    value: ""
+    
+    
+  #TWITTER FIXTURES
+  peanutSettings_50:
+    name: twitter_request
+    value: 0
+  peanutSettings_51:
+    name: twitter_account
+    value: ""
+  peanutSettings_52:
+    name: twitter_follow_request
+    value: 0
+  peanutSettings_53:
+    name: twitter_data_show_screen_name
+    value: 0
+  peanutSettings_54:
+    name: twitter_data_show_count
+    value: 0
+  peanutSettings_55:
+    name: twitter_follow_data_size
+    value: 0
+  peanutSettings_56:
+    name: twitter_follow_lang
+    value: "en"
+  peanutSettings_57:
+    name: twitter_tweet_request
+    value: 0
+  peanutSettings_58:
+    name: twitter_tweet_url_request
+    value: 0
+  peanutSettings_59:
+    name: twitter_tweet_url
+    value: ""
+  peanutSettings_60:
+    name: twitter_tweet_text_request
+    value: 0
+  peanutSettings_61:
+    name: twitter_tweet_text
+    value: ""
+  peanutSettings_62:
+    name: twitter_show_count
+    value: 0
+  peanutSettings_63:
+    name: twitter_tweet_data_size
+    value: 0
+  peanutSettings_64:
+    name: twitter_tweet_lang
+    value: "en"
+  peanutSettings_65:
+    name: twitter_tweet_recommended
+    value: ""
+  peanutSettings_66:
+    name: twitter_tweet_hashtag
+    value: ""
+
+#GOOGLE PLUS FIXTURES
+  peanutSettings_67:
+    name: google_request
+    value: 0
+  peanutSettings_68:
+    name: google_page_link
+    value: ""
+  peanutSettings_69:
+    name: google_plus_request
+    value: 0
+  peanutSettings_70:
+    name: google_plus_size
+    value: 0
+  peanutSettings_71:
+    name: google_plus_note
+    value: 0
+  peanutSettings_73:
+    name: google_plus_url
+    value: 0 
+  peanutSettings_74:
+    name: google_plus_perso_request
+    value: 0
+  peanutSettings_75:
+    name: google_plus_type
+    value: 0
+  peanutSettings_76:
+    name: google_plus_other_type
+    value: ""
+  peanutSettings_77:
+    name: google_plus_title
+    value: ""
+  peanutSettings_78:
+    name: google_plus_url_image
+    value: ""
+  peanutSettings_79:
+    name: google_plus_description
+    value: ""
