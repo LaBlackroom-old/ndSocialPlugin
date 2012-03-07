@@ -1,4 +1,4 @@
-// ü
+
 var facebook = {
   //-------------------------------------------------------------------------------------------------------------------------
   // CSS FUNCTION
@@ -12,7 +12,7 @@ var facebook = {
     $('.sf_admin_form_field_facebook_like_show_face').css('display', display);
     $('.sf_admin_form_field_facebook_like_verb_to_display').css('display', display);
     $('.sf_admin_form_field_facebook_like_color_scheme').css('display', display);
-    $('.sf_admin_form_field_facebook_like_font').css('display', display);   
+    $('.sf_admin_form_field_facebook_like_font').css('display', display);
   },
   //-------------------------------------------------------------------------------------------------------------------------
   facebook_share_request : function(display){
@@ -23,9 +23,9 @@ var facebook = {
     $('.sf_admin_form_field_facebook_sitename').css('display', display);
     $('.sf_admin_form_field_facebook_description').css('display', display);
   },
-  
+
   //#########################################################################################################################
-  
+
   //-------------------------------------------------------------------------------------------------------------------------
   // VALUE SELECT FUNCTION
   //-------------------------------------------------------------------------------------------------------------------------
@@ -49,9 +49,9 @@ var facebook = {
     $('input#settings_facebook_sitename').val(valueText);
     $('input#settings_facebook_description').val(valueText);
   },
-  
+
   //#########################################################################################################################
-  
+
   //-------------------------------------------------------------------------------------------------------------------------
   // CURRENT ACTION FUNCTION
   //-------------------------------------------------------------------------------------------------------------------------
@@ -90,9 +90,9 @@ var facebook = {
       facebook.selectInput_facebook_share_request("", 0);
     }
   },
-  
+
   //#########################################################################################################################
-  
+
   //-------------------------------------------------------------------------------------------------------------------------
   // CHANGE FUNCTION
   //-------------------------------------------------------------------------------------------------------------------------
@@ -103,7 +103,7 @@ var facebook = {
   },
   //-------------------------------------------------------------------------------------------------------------------------
   changeFacebookAccountRequest : function(){
-    
+
     $('select#settings_facebook_request').change(function() {
       if( '1' == $('select#settings_facebook_request').val() ){ /* YES */
         facebook.facebook_page('block');
@@ -116,12 +116,12 @@ var facebook = {
   },
   //-------------------------------------------------------------------------------------------------------------------------
   changeFacebookLike : function(){
-    
+
     $('select#settings_facebook_like').change(function() {
       if( '1' == $('select#settings_facebook_like').val() ){ /* YES */
         facebook.facebook_like_request('block');
       }
-      else{ /* CHOISIR  OR NO */ 
+      else{ /* CHOISIR  OR NO */
         facebook.facebook_like_request('none');
         facebook.selectInput_facebook_like_request("", 0);
       }
@@ -129,7 +129,7 @@ var facebook = {
   },
   //-------------------------------------------------------------------------------------------------------------------------
   changeFacebookShare : function(){
-    
+
     $('select#settings_facebook_share').change(function() {
       if( '1' == $('select#settings_facebook_share').val() ){ /* YES */
         facebook.facebook_share_request('block');
