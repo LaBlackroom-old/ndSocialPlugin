@@ -21,9 +21,9 @@
 
               <div id="tabs">
                 <ul>
-                  <li><a href="#tabs-1"><img src="/ndSocialPlugin/images/facebook11.png" alt="" /></a></li>
-                  <li><a href="#tabs-2"><img src="/ndSocialPlugin/images/twitter11.png" alt="" /></a></li>
-                  <li><a href="#tabs-3"><img src="/ndSocialPlugin/images/google11.png" alt="" /></a></li>
+                  <li><a title="Accéder aux réglages pour Facebook" id="facebook" href="#tabs-1"><img src="/ndSocialPlugin/images/facebookIn.png" alt="" /></a></li>
+                  <li><a title="Accéder aux réglages pour Twitter"  id="twitter"  href="#tabs-2"><img src="/ndSocialPlugin/images/twitterOut.png" alt="" /></a></li>
+                  <li><a title="Accéder aux réglages pour Google"   id="google"   href="#tabs-3"><img src="/ndSocialPlugin/images/googleOut.png" alt="" /></a></li>
                 </ul>
   
                 <!-- FACEBOOK -->
@@ -518,6 +518,29 @@
     //GOOGLE 
     google.current();
     google.change();
+    
+    var currentOn = 'In';
+    var currentOff = 'Out';
+    
+    $('#facebook').click(function(){
+      facebook.changeImage('facebook', 'facebook'+currentOn+'.png');
+      twitter.changeImage('twitter', 'twitter'+currentOff+'.png');
+      google.changeImage('google', 'google'+currentOff+'.png');
+    });
+    
+    $('#twitter').click(function(){
+      facebook.changeImage('facebook', 'facebook'+currentOff+'.png');
+      twitter.changeImage('twitter', 'twitter'+currentOn+'.png');
+      google.changeImage('google', 'google'+currentOff+'.png');
+    });
+    
+    $('#google').click(function(){
+      facebook.changeImage('facebook', 'facebook'+currentOff+'.png');
+      twitter.changeImage('twitter', 'twitter'+currentOff+'.png');
+      google.changeImage('google', 'google'+currentOn+'.png');
+    });
+    
+    
   });
 </script>
 
