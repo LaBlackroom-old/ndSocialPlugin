@@ -1,10 +1,6 @@
-<!-- To design this button, go to https://twitter.com/about/resources/buttons#tweet -->
-
 <?php if("1" == peanutConfig::get('twitter_tweet_request')): 
-
-  
+  /* To design this button, go to https://twitter.com/about/resources/buttons#tweet */  
   $lang = array('fr' => 'Tweeter', 'en' => 'Tweet');
-
   $tweet = 'class="twitter-share-button" data-via="' . peanutConfig::get('twitter_account') . '"';
   
   //Share URL (page URL by default)
@@ -44,9 +40,7 @@
     <a href="https://twitter.com/share" <?php echo $tweet; ?>>
       <?php echo $lang[peanutConfig::get('twitter_tweet_lang')] ?>
     </a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-    
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    
 <?php endif; ?>
 
 

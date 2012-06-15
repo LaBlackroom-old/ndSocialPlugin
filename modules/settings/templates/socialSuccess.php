@@ -21,9 +21,9 @@
 
               <div id="tabs">
                 <ul>
-                  <li><a href="#tabs-1"><img src="/ndSocialPlugin/images/facebook.png" alt="" /></a></li>
-                  <li><a href="#tabs-2"><img src="/ndSocialPlugin/images/twitter.png" alt="" /></a></li>
-                  <li><a href="#tabs-3"><img src="/ndSocialPlugin/images/google.png" alt="" /></a></li>
+                  <li><a href="#tabs-1"><img src="/ndSocialPlugin/images/facebook11.png" alt="" /></a></li>
+                  <li><a href="#tabs-2"><img src="/ndSocialPlugin/images/twitter11.png" alt="" /></a></li>
+                  <li><a href="#tabs-3"><img src="/ndSocialPlugin/images/google11.png" alt="" /></a></li>
                 </ul>
   
                 <!-- FACEBOOK -->

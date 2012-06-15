@@ -1,9 +1,6 @@
-<!-- To design this fb-like button, go to http://developers.facebook.com/docs/reference/plugins/like/ -->
-
-<!-- URL courante : echo sfContext::getInstance()->getRequest()->getUriPrefix(); -->
-
 <?php if('1' == peanutConfig::get('facebook_like')): ?>
-
+  <!-- To design this fb-like button, go to http://developers.facebook.com/docs/reference/plugins/like/ -->
+  <!-- URL courante : echo sfContext::getInstance()->getRequest()->getUriPrefix(); -->
   <div id="fb-root"></div>
   <script>
     (function(d, s, id) {
@@ -14,10 +11,9 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-
   <?php 
   $likeConfig = '';
-    
+   
     /* Facebook URL */
     if('' == peanutConfig::get('facebook_page') ):
        $likeConfig .= ' data-href"= ' . sfContext::getInstance()->getRequest()->getUriPrefix() . '"';
@@ -64,8 +60,5 @@
       $likeConfig .= ' data-font="' . peanutConfig::get('facebook_like_font') . '"';
     endif;  
   ?>
-  
-  
-<div class="fb-like" <?php echo $likeConfig ?>></div>
-
+  <div class="fb-like" <?php echo $likeConfig ?>></div>
 <?php endif; ?>

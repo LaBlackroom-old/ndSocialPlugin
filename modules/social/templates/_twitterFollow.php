@@ -1,10 +1,6 @@
-<!-- To design this button, go to https://twitter.com/about/resources/buttons#follow -->
-
-<?php 
-  if("1" == peanutConfig::get('twitter_follow_request')): 
-    
+<?php if("1" == peanutConfig::get('twitter_follow_request')): 
+    /* To design this button, go to https://twitter.com/about/resources/buttons#follow */
     $lang = array('fr' => 'Suivre', 'en' => 'Follow');
-    
     $follow = 'class="twitter-follow-button" ';
     $name = '';
     
@@ -28,7 +24,6 @@
     /* Language (English [en] by default) */
     $follow .= ' data-lang="' . peanutConfig::get('twitter_follow_lang') . '"';
 ?>
-
     <a href="https://twitter.com/<?php echo peanutConfig::get('twitter_account') ?>" <?php echo $follow; ?>>
       <?php echo $lang[peanutConfig::get('twitter_follow_lang')] . ' ' . $name; ?>
     </a>
