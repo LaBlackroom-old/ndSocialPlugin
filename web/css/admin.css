@@ -1,7 +1,3 @@
-sf_admin_form_field_facebook_request div label{
-  float: left;
-}
-
 .ui-widget-content,
 .ui-widget-header,
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
@@ -33,6 +29,53 @@ sf_admin_form_field_facebook_request div label{
   position: relative;
 }
 
+
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_page,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_like_send_button,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_like_layout_style,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_like_width,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_like_show_face,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_like_verb_to_display,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_like_color_scheme,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_like_font,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_title,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_type,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_url,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_image,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_sitename,
+#authenticated #sf_admin_container .sf_admin_form_field_facebook_description,
+
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_account,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_follow_request,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_request,
+
+#authenticated #sf_admin_container .sf_admin_form_field_google_page_link,
+#authenticated #sf_admin_container .sf_admin_form_field_google_plus_size,
+#authenticated #sf_admin_container .sf_admin_form_field_google_plus_note,
+#authenticated #sf_admin_container .sf_admin_form_field_google_plus_url,
+#authenticated #sf_admin_container .sf_admin_form_field_google_plus_type,
+#authenticated #sf_admin_container .sf_admin_form_field_google_plus_title,
+#authenticated #sf_admin_container .sf_admin_form_field_google_plus_url_image,
+#authenticated #sf_admin_container .sf_admin_form_field_google_plus_description
+{ padding-left: 50px; }
+
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_data_show_screen_name,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_data_show_count,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_follow_data_size,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_follow_lang,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_url_request,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_text_request,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_show_count,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_data_size,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_lang,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_recommended,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_hashtag
+{ padding-left: 100px; }
+
+
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_url,
+#authenticated #sf_admin_container .sf_admin_form_field_twitter_tweet_text
+{ padding-left: 150px; }
 
 /* FACEBOOK */
 /*
