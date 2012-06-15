@@ -7,8 +7,8 @@
 }
 
 .ui-state-default img, .ui-widget-content .ui-state-default img, .ui-widget-header .ui-state-default img {
-  padding-top: 0;
-  width: 50px;
+  padding-top: 5px;
+  width: 55px;
 }
 
 .ui-state-active img, .ui-widget-content .ui-state-active img, .ui-widget-header .ui-state-active img {
